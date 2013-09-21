@@ -1,0 +1,12 @@
+{
+  "content_scripts": [ {
+      "js": [ "testlio_new_issue.js" ],
+      "matches": [ "http://*.testlio.com/*" ]
+   } ],
+  "name": "New Issue details",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Will add pre made new issue details.",
+  "permissions": ["http://*.testlio.com/", "https://*.testlio.com/"],
+  "web_accessible_resources": ["test.js"] 
+}
