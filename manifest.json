@@ -8,5 +8,6 @@
   "manifest_version": 2,
   "description": "Will add pre made new issue details.",
   "permissions": ["http://*.testlio.com/", "https://*.testlio.com/"],
-  "web_accessible_resources": ["test.js"] 
+  "web_accessible_resources": ["test.js"] ,
+  "options_page": "options.html"
 }
